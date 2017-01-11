@@ -1,0 +1,25 @@
+browser: "phantomjs"
+
+directory: "shots"
+
+domains:
+  dev: "http://www.dev.gov.uk"
+  live: "https://www.gov.uk"
+
+fuzz: "20%"
+
+screen_widths:
+  - 600
+  - 750
+  - 1280
+
+paths:
+  topics: /topic
+  topic_page: /topic/oil-and-gas
+  subtopic_page: /topic/oil-and-gas/carbon-capture-and-storage
+  latest: /topic/animal-welfare/pets/latest
+  browse: /browse
+  browse_page: /browse/benefits
+  browse_subpage: /browse/benefits/entitlement
+  email_signup: /topic/oil-and-gas/carbon-capture-and-storage/email-signup
+  org_services_info: /government/organisations/department-for-environment-food-rural-affairs/services-information
